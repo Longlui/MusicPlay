@@ -54,18 +54,13 @@ let allMusic = [
     name: "Phía sau em",
     artist: "KayTran & Bin-z",
     img:"PhiaSauEm",
-    src:"PhiaSauEM"
-},
-{
-    name: "Phía sau em",
-    artist: "KayTran & Bin-z",
-    img:"PhiaSauEm",
-    src:"PhiaSauEM"
-},
-{
-    name: "PhiaSauEm",
-    artist: "KayTran & Bin-z",
-    img:"PhiaSauEm",
     src:"PhiaSauEm"
+},
+
+{
+    name: "Lụy tình",
+    artist: "I don't know",
+    img:"LuyTinh",
+    src:"LuyTinh"
 },
 ];
