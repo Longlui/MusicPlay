@@ -223,6 +223,29 @@ function playingSong(){
     allLiTag[j].setAttribute("onclick", "clicked(this)");
   }
 }
+// Hàm xóa bài hát
+//function deleteSong(button) {
+  // Lấy li cha của nút xóa được nhấp
+  //const listItem = button.parentElement;
+
+  // Lấy tên bài hát từ span có class là "songName"
+  //const songName = listItem.querySelector(".songName").innerText;
+
+  // Gọi hàm xóa bài hát từ mảng allMusic
+  //removeSongFromAllMusic(songName);
+
+  // Cập nhật giao diện người dùng
+  //listItem.remove();
+//}
+
+// Hàm xóa bài hát từ mảng allMusic
+function removeSongFromAllMusic(songName) {
+  const index = allMusic.findIndex((song) => song.name === songName);
+  if (index !== -1) {
+    allMusic.splice(index, 1);
+  }
+}
+
 
 //particular li clicked function
 function clicked(element){
@@ -231,4 +254,5 @@ function clicked(element){
   loadMusic(musicIndex);
   playMusic();
   playingSong();
+
 }
