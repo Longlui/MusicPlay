@@ -66,6 +66,6 @@ let allMusic = [
     name: "PhiaSauEm",
     artist: "KayTran & Bin-z",
     img:"PhiaSauEm",
-    src:"PhiaSauEM"
+    src:"PhiaSauEm"
 },
 ];
